@@ -89,6 +89,9 @@ body {
 
 .sidebar-section:first-of-type {
   flex: 0 1 auto;
+  margin-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 10px;
 }
 
 .sidebar-section:nth-of-type(2) {
