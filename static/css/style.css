@@ -16,12 +16,13 @@
   --radius: 10px;
   --font: 'DM Sans', system-ui, sans-serif;
   --mono: 'JetBrains Mono', monospace;
+  --emoji: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
 }
 
 html, body { height: 100%; overflow: hidden; }
 
 body {
-  font-family: var(--font);
+  font-family: var(--font), var(--emoji);
   background: var(--bg);
   color: var(--text);
   font-size: 14.5px;
